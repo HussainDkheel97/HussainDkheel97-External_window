@@ -1,0 +1,55 @@
+[
+  {
+    "ContainingType": "External_Party.Controllers.AdminController",
+    "Method": "AddUser",
+    "RelativePath": "api/Admin/AddUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDto",
+        "Type": "External_Party.Models.Dto.ExternelUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "External_Party.Controllers.AdminController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/Admin/DeleteUser/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "External_Party.Controllers.AdminController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/Admin/UpdateUser/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userDto",
+        "Type": "External_Party.Models.Dto.ExternelUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
